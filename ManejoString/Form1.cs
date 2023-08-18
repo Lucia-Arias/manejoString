@@ -52,7 +52,7 @@ namespace ManejoString
             }
         }
 
-        private void txtDeletrear_Click(object sender, EventArgs e)
+        private void btDeletrear_Click(object sender, EventArgs e)
         {
             lblResultado.Text = "";
 
@@ -60,6 +60,11 @@ namespace ManejoString
             {
                 lblResultado.Text = lblResultado.Text + txtString.Text.Substring(i, 1) + "\r\n";
             }
+        }
+
+        private void btExtraer_Click(object sender, EventArgs e)
+        {
+            lblResultado.Text = txtString.Text.Replace(txtBuscado.Text, "");
         }
     }
 }

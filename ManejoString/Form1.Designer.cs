@@ -36,7 +36,8 @@
             this.btMinuscula = new System.Windows.Forms.Button();
             this.btBuscar = new System.Windows.Forms.Button();
             this.txtBuscado = new System.Windows.Forms.TextBox();
-            this.txtDeletrear = new System.Windows.Forms.Button();
+            this.btDeletrear = new System.Windows.Forms.Button();
+            this.btExtraer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtString
@@ -114,28 +115,40 @@
             // txtBuscado
             // 
             this.txtBuscado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscado.Location = new System.Drawing.Point(844, 13);
+            this.txtBuscado.Location = new System.Drawing.Point(862, 13);
             this.txtBuscado.Name = "txtBuscado";
             this.txtBuscado.Size = new System.Drawing.Size(319, 38);
             this.txtBuscado.TabIndex = 7;
             // 
-            // txtDeletrear
+            // btDeletrear
             // 
-            this.txtDeletrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDeletrear.Location = new System.Drawing.Point(839, 65);
-            this.txtDeletrear.Name = "txtDeletrear";
-            this.txtDeletrear.Size = new System.Drawing.Size(168, 39);
-            this.txtDeletrear.TabIndex = 9;
-            this.txtDeletrear.Text = "Deletrear";
-            this.txtDeletrear.UseVisualStyleBackColor = true;
-            this.txtDeletrear.Click += new System.EventHandler(this.txtDeletrear_Click);
+            this.btDeletrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDeletrear.Location = new System.Drawing.Point(839, 65);
+            this.btDeletrear.Name = "btDeletrear";
+            this.btDeletrear.Size = new System.Drawing.Size(168, 39);
+            this.btDeletrear.TabIndex = 9;
+            this.btDeletrear.Text = "Deletrear";
+            this.btDeletrear.UseVisualStyleBackColor = true;
+            this.btDeletrear.Click += new System.EventHandler(this.btDeletrear_Click);
+            // 
+            // btExtraer
+            // 
+            this.btExtraer.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btExtraer.Location = new System.Drawing.Point(1013, 65);
+            this.btExtraer.Name = "btExtraer";
+            this.btExtraer.Size = new System.Drawing.Size(168, 39);
+            this.btExtraer.TabIndex = 10;
+            this.btExtraer.Text = "Extraer";
+            this.btExtraer.UseVisualStyleBackColor = true;
+            this.btExtraer.Click += new System.EventHandler(this.btExtraer_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1215, 177);
-            this.Controls.Add(this.txtDeletrear);
+            this.Controls.Add(this.btExtraer);
+            this.Controls.Add(this.btDeletrear);
             this.Controls.Add(this.txtBuscado);
             this.Controls.Add(this.btBuscar);
             this.Controls.Add(this.btMinuscula);
@@ -161,7 +174,8 @@
         private System.Windows.Forms.Button btMinuscula;
         private System.Windows.Forms.Button btBuscar;
         private System.Windows.Forms.TextBox txtBuscado;
-        private System.Windows.Forms.Button txtDeletrear;
+        private System.Windows.Forms.Button btDeletrear;
+        private System.Windows.Forms.Button btExtraer;
     }
 }
 

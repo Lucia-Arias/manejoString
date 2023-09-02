@@ -66,5 +66,17 @@ namespace ManejoString
         {
             lblResultado.Text = txtString.Text.Replace(txtBuscado.Text, "");
         }
+
+        private void txtString_TextChanged(object sender, EventArgs e)
+        {
+            txtBuscado.Text = txtString.Text;
+        }
+
+        private void txtBuscado_TextChanged(object sender, EventArgs e)
+        {
+            lblResultado.Text = txtBuscado.Text;
+        }
+
+        
     }
 }

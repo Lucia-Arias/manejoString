@@ -1,0 +1,10 @@
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\obj\Debug\ManejoString.csproj.AssemblyReference.cache
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\obj\Debug\ManejoString.Form1.resources
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\obj\Debug\ManejoString.Properties.Resources.resources
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\obj\Debug\ManejoString.csproj.GenerateResource.cache
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\obj\Debug\ManejoString.csproj.CoreCompileInputs.cache
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\bin\Debug\ManejoString.exe.config
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\bin\Debug\ManejoString.exe
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\bin\Debug\ManejoString.pdb
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\obj\Debug\ManejoString.exe
+C:\Users\Lucia\Source\Repos\ManejoString\ManejoString\obj\Debug\ManejoString.pdb

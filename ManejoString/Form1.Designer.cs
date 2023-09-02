@@ -47,6 +47,7 @@
             this.txtString.Name = "txtString";
             this.txtString.Size = new System.Drawing.Size(815, 38);
             this.txtString.TabIndex = 0;
+            this.txtString.TextChanged += new System.EventHandler(this.txtString_TextChanged);
             // 
             // btLongitud
             // 
@@ -119,6 +120,7 @@
             this.txtBuscado.Name = "txtBuscado";
             this.txtBuscado.Size = new System.Drawing.Size(319, 38);
             this.txtBuscado.TabIndex = 7;
+            this.txtBuscado.TextChanged += new System.EventHandler(this.txtBuscado_TextChanged);
             // 
             // btDeletrear
             // 
